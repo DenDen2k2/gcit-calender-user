@@ -1,0 +1,323 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* .navbar {
+    background: radial-gradient(#fff,hsl(0, 100%, 95%))
+} */
+/* .navbar .navbar-nav a.nav-link:hover{
+	color: rgb(243, 63, 63);
+}
+.nav-item::after {
+	content: '';
+	display: block;
+	width: 0px;
+	height: 2px;
+	background: rgb(243, 63, 63);
+	transition: 0.4s
+} */
+
+.nav-item:hover::after {
+	width: 100%
+}
+marquee{
+    background: white;
+
+}
+.navbar-brand{
+    font-size: 2rem;
+    color: black;
+    font-family: Georgia, serif;
+
+}
+.navbar-brand:hover{
+    color: black;
+
+}
+.nav-link{
+    margin-right: 10px;
+    margin-left: 10px;
+    color: black;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    
+}
+.nav-link:hover{
+    color: black;
+}
+
+.btn0{
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border: none;
+    background: rgb(23, 22, 22) ;
+    color: white;
+    border-radius: 60px;
+    font-weight: 700;
+}
+.main{
+    /*background: url(hm.jpg) no-repeat;*/
+    background-size: cover;
+    height: 100vh;
+    background-position: 50% 50%;
+    width: 100%;
+}
+.main h1{
+    font-size: 4rem;
+    font-weight: 700;
+}
+.btn1{
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background-color: rgb(64, 63, 63);
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+}
+
+.ass{
+    height: 30px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+    margin-top: 10px;
+}
+.btn1:hover{
+    background-color: rgb(196, 75, 10);
+    transition: 0.5s;
+}
+h1{
+    font-weight: 700;
+}
+.card:hover{
+    box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+-webkit-box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+transition: 00.5s;
+}
+.news{
+    background-color: black;
+    color: white;
+}
+.btn2{
+    height: 45px;
+    width: 100px;
+    background: white;
+    margin-left: -10px;
+    border: 2px solid white;
+    font-weight: 600;
+}
+.news input{
+    height: 45px;
+    width: 55%;
+    border: 2px solid white;
+    outline: none;
+    background: black;
+    color: white;
+    margin-top: 20px;
+    font-weight: 600;
+}
+.news::placeholder{
+    color:white;
+}
+.news p{
+    margin: 0;
+}
+.fab{
+    font-size: 2.5rem;
+    cursor: pointer;
+    padding-right: 5px;
+}
+
+input[type=checkbox]{
+    margin-top: 10px;
+}
+
+.col-lg-3 p{
+    margin-bottom: 2px;
+}
+
+.card-body img{
+    height: 250px;
+}
+
+.col-lg-3{
+    margin-bottom: 60px;
+}
+.col-lg-6{
+    padding: 100px;
+}
+.news a{
+    margin: 0;
+    color: #fff;
+    text-decoration: none;
+}
+.img{
+    width: 2px;
+}
+.button{
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background-color: rgb(64, 63, 63);
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+}   
+.about{
+    padding-top: 0%;
+}
+.col-lg-8 img{
+    max-width: 50%;
+    padding-right: 70px 0;
+}
+/*----  Main Style  ----*/
+#cards_landscape_wrap-2{
+    text-align: center;
+    background: #F7F7F7;
+  }
+  #cards_landscape_wrap-2 .container{
+    padding-top: 80px; 
+    padding-bottom: 100px;
+    height: auto;
+  }
+  #cards_landscape_wrap-2 a{
+    text-decoration: none;
+    outline: none;
+  }
+  #cards_landscape_wrap-2 .card-flyer {
+    border-radius: 5px;
+  }
+  #cards_landscape_wrap-2 .card-flyer .image-box{
+    background: #ffffff;
+    overflow: hidden;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.50);
+    border-radius: 5px;
+  }
+  #cards_landscape_wrap-2 .card-flyer .image-box img{
+    -webkit-transition:all .9s ease; 
+    -moz-transition:all .9s ease; 
+    -o-transition:all .9s ease;
+    -ms-transition:all .9s ease; 
+    width: 100%;
+    height: 100%;
+  }
+  #cards_landscape_wrap-2 .card-flyer:hover .image-box img{
+    opacity: 0.7;
+    -webkit-transform:scale(1.15);
+    -moz-transform:scale(1.15);
+    -ms-transform:scale(1.15);
+    -o-transform:scale(1.15);
+    transform:scale(1.15);
+  }
+  #cards_landscape_wrap-2 .card-flyer .text-box{
+    text-align: center;
+  }
+  #cards_landscape_wrap-2 .card-flyer .text-box .text-container{
+    padding: 30px 18px;
+  }
+  #cards_landscape_wrap-2 .card-flyer{
+    background: #FFFFFF;
+    margin-top: 50px;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -ms-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.40);
+  }
+  #cards_landscape_wrap-2 .card-flyer:hover{
+    background: #fff;
+    box-shadow: 0px 15px 26px rgba(0, 0, 0, 0.50);
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -ms-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+    margin-top: 50px;
+  }
+  #cards_landscape_wrap-2 .card-flyer .text-box p{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding-bottom: 0px; 
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #000000;
+  }
+  #cards_landscape_wrap-2 .card-flyer .text-box h6{
+    margin-top: 0px;
+    margin-bottom: 4px; 
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Roboto Black', sans-serif;
+    letter-spacing: 1px;
+    color: #00acc1;
+  }
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+@keyframes icon {
+    25% {
+        transform: translateY(-1.5rem);
+    }
+    50% {
+        transform: translateY(1.5rem);
+    }
+}
+.about-sec {
+    /* display: grid; 
+    /* grid-template-columns: 1.2fr 1.2fr; */
+    padding-right: 50px;
+}
+
+.about-content img {
+    width: 25rem;
+    height: auto;
+    /* text-align: center; */
+    animation: icon 4s ease infinite;
+    padding-left: 100px;
+}
+
+
+.about-content p {
+    padding-bottom: -10px;
+    color: var(--clr3);
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.about-inner h5 {
+    padding: 1rem 0;
+    font-size: 15px;
+    text-transform: capitalize;
+    font-weight: 600;
+    line-height: 0.8;
+}
+
+.about-inner h5:hover {
+    transition: 1s ease;
+    transform: translateX(2rem);
+}
+
+.about-inner .fas {
+    color: var(--clr4);
+    padding-left: 1rem;
+}
+
+.about-content .btn {
+    border: .1rem solid var(--clr4);
+}
+
+
